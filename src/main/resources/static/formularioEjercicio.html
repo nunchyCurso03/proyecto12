@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maestro Detalle de Solicitudes</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div>
+        <h2>Lista de solicitudes</h3>
+        <table>
+            <thead>
+                <th>ID</th>
+                <th>Fecha</th>
+                <th>Estado</th>
+            </thead>
+            <tr>
+                <td><a href="#">1</a></td>
+                <td>2024-11-25</td>
+                <td>Pendiente</td>
+            </tr>
+            <tr>
+                <td><a href="#">2</a></td>
+                <td>2024-11-26</td>
+                <td>Aprobada</td>
+            </tr>
+            <tr>
+                <td><a href="#">3</a></td>
+                <td>2024-11-27</td>
+                <td>Rechazada</td>
+            </tr>
+        </table>
+       
+    </div>
+
+    <div>
+        <h2>Detalle de Solicitud</h3>
+        <form action="#">
+            <div>
+                <label for="solicitudID">ID Solicitud: </label>
+                <input type="text" name="solicitudID" value="1">
+            </div>
+            <div>
+                <label for="fecha">Fecha: </label>
+                <input type="date" name="fecha" id="fecha" value="2024-11-25">
+            </div>
+            <div>
+                <label for="estado">Estado: </label>
+                <input type="text" name="estado" value="Pendiente">
+            </div>
+            <div class="descripcion">
+                <label for="descripcion">Descripción: </label>
+                <br>
+                <textarea name="descripcion" id="descripcion"  rows="5" cols="60"> Descripción de la solicitud 1</textarea>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
